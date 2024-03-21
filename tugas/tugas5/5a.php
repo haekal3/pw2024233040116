@@ -67,8 +67,8 @@ $mahasiswa = [
     <?php foreach ($mahasiswa as $mhs) :?>
         <ul>
             <li>Nama : <?= $mhs["nama"]; ?></li>
-            <li>Nama : <?= $mhs["nrp"]; ?></li>
-            <li>Nama : <?= $mhs["email"]; ?></li>
+            <li>NRP : <?= $mhs["nrp"]; ?></li>
+            <li>Email : <?= $mhs["email"]; ?></li>
         </ul>
     <?php endforeach; ?>
 </body>
